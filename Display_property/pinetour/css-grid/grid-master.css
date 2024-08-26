@@ -1,0 +1,38 @@
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+  --black: #000000;
+  --almond: #ffebcd;
+}
+body {
+  background-color: var(--white);
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  display: grid;
+  background-color: var(--white);
+  height: 100%;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 300px 300px 300px 150px;
+}
+.brand-1 {
+  grid-column: 1/3;
+  grid-row: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+img {
+  grid-column: 2;
+  width: 75%;
+  height: 75%;
+  display: flex;
+  background-size: cover;
+}

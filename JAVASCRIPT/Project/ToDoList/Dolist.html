@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="Dolist.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+   
+      <div class="header"><button class="add_task" id="add_task_button">Add task</button></div>
+      <div class="container">
+        <div class="box_container">
+          <div class="box_head">todo</div>
+          <div class="tasks_container" id="todo_tasks_container">
+            <!-- <div class="task">
+            <p>Hello task</p>
+            <button>Edit</button>
+            <button>Delete</button>
+          </div> -->
+          </div>
+        </div>
+        <div class="box_container">
+          <div class="box_head">in progress</div>
+          <div class="tasks_container" id="inprogress_tasks_container"></div>
+        </div>
+        <div class="box_container">
+          <div class="box_head">done</div>
+          <div class="tasks_container" id="done_tasks_container"></div>
+        </div>
+        <div class="box_container">
+          <div class="box_head">blocked</div>
+          <div class="tasks_container" id="blocked_tasks_container"></div>
+        </div>
+      </div>
+    </div>
+    <div class="dialog_container">
+      <div class="dialog">
+        <input id="input_element" type="text" />
+        <select name="" id="select_status">
+          <option value="todo">todo</option>
+          <option value="inProgress">inProgress</option>
+          <option value="done">done</option>
+          <option value="blocked">blocked</option>
+        </select>
+        <button id="submit_button">Submit</button>
+      </div>
+    </div>
+    <script src="Dolist.js"></script>
+  </body>
+</html>

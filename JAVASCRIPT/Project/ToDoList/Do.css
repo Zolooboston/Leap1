@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(35, 34, 34);
+  display: flex;
+  justify-content: center;
+}
+.main-container {
+  margin-top: 100px;
+  width: 1280px;
+  min-height: 832px;
+  display: flex;
+  flex-direction: column;
+  /* width: 1280px;
+  height: 832px; */
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.header {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-top: 100px;
+}
+.box {
+  width: 280px;
+  height: 672px;
+  border-radius: 12px;
+  border: 1px solid #333333;
+  padding: 20px;
+  background-color: #101010;
+}
+.todo-card {
+  height: 42px;
+}
+.todo {
+  width: 200px;
+  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+.header1 {
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  /* font-size: 10px; */
+  font-size: large;
+  margin-bottom: 20px;
+  border: none;
+}
+.number {
+  color: #999999;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+}
+.white {
+  background-color: white;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+}
+.border {
+  border: 1px solid #fff;
+}
+.bg-grey {
+  width: 240px;
+  height: 54px;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  margin-top: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.text-1 {
+  color: #d9d9d9;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14.52px;
+  width: 148px;
+}
+/* .enterTask {
+  background-color: black;
+  width: 310px;
+  height: 376px;
+  border-radius: 12px;
+  padding: 40px;
+  margin: 100px;
+  position: absolute;
+  border: 1px solid gray;
+  display: none;
+} */

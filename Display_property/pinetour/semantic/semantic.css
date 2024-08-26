@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: black;
+}
+header {
+  width: 100vw;
+  height: 50px;
+  color: green;
+  border: 2px solid green;
+}
+nav {
+  width: 100vw;
+  height: 20px;
+  color: blue;
+  border: 2px solid blue;
+}
+section {
+  width: 100vw;
+  height: 500px;
+  color: pink;
+  border: 2px solid purple;
+  display: inline-flex;
+}
+article {
+  width: 65%;
+  height: 400px;
+  /* margin: 20px; */
+  margin: 50px 10px 10px 10px;
+  color: aquamarine;
+  border: 2px solid aquamarine;
+}
+aside {
+  width: 30%;
+  height: 500px;
+  color: yellow;
+  border: 2px solid yellow;
+}
+footer {
+  width: 100vw;
+  height: 100px;
+  color: red;
+  border: 2px solid red;
+}

@@ -1,0 +1,36 @@
+.container {
+  width: 450px;
+  height: 400px;
+  position: relative;
+  margin: 100px;
+  border: 1px solid red;
+  text-align: center;
+  font-size: 24px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  border-radius: 10px;
+  left: 30px;
+}
+.one {
+  background-color: aqua;
+  z-index: 3;
+  top: 60px;
+}
+.two {
+  background-color: blue;
+  z-index: 2;
+  top: 20px;
+}
+.three {
+  height: 200px;
+  background-color: rgb(132, 11, 11);
+  z-index: 1;
+  top: 20px;
+}
+.four {
+  background-color: purple;
+  bottom: 50px;
+}

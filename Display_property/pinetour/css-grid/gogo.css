@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #ffffff;
+}
+body {
+  background-color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container {
+  margin: 20px 50px 20px 50px;
+  width: 1100px;
+  height: 100vh;
+}
+.gogo-logo {
+  border: 1px solid blue;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+}
+.header-text {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px 10px 20px;
+  border: 1px solid red;
+}
+.search-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+.pointer:hover {
+  cursor: pointer;
+}
+.weather {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 40px;
+  gap: 20px;
+  align-items: center;
+  font-size: small;
+}
+.medee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.down {
+  width: 15px;
+  height: 15px;
+}
+p {
+  font-weight: 400;
+}
+.medee1 {
+  gap: 3px;
+}
+.Heading {
+  width: 100%;
+  height: 840px;
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: 0.3fr 1.4fr 0.7fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  margin-top: 30px;
+}
+.banner {
+  height: 75px;
+  grid-row: 1;
+  grid-column: 1/5;
+  border-radius: 5px;
+  background-image: url(./icoke.png);
+  background-position: center;
+  /* background-size: cover; */
+  background-size: 1100px 75px;
+  transition: height 1s ease-out 1s;
+}
+.banner:hover {
+  cursor: pointer;
+  /* background-image: url(https://mgl.gogo.mn/banner_gogo/banner/2024/06/25/news-b1/videourl/1719283100/tom.jpg);
+  grid-row: 1/3;
+  grid-column: 1/5; */
+}
+.image {
+  grid-row: 2;
+  grid-column: 3/5;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/07/320643-04072024-1720059288-1087208656-zurhnii_uvchin_hereh_25_nas_woman-holding-human-heart-model-cardiovascular-di-2023-11-27-04-58-58-utc1.jpg);
+}
+.bg {
+  background-position: center;
+  background-size: 120%;
+  border-radius: 5px;
+}
+.image:hover,
+.img-1:hover {
+  transition: 0.5s;
+  background-size: 130%;
+  cursor: pointer;
+}
+.text {
+  grid-row: 2;
+  grid-column: 1/3;
+  background-color: gray;
+  border-radius: 5px;
+}
+.news {
+  grid-row: 3;
+  grid-column: 1/5;
+  border: 2px solid blue;
+}
+.news-1 {
+  grid-row: 3;
+  grid-column: 1;
+}
+.img-1 {
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/07/-03072024-1719975329-703385215-tses.jpg);
+  height: 180px;
+}
+p {
+  font-size: larger;
+  color: black;
+}
+.news-2 {
+  grid-row: 3;
+  grid-column: 2;
+  background-color: aqua;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/07/320590-02072024-1719910932-1538286154-thumbnail.jpg);
+  height: 180px;
+}
+.news-3 {
+  grid-row: 3;
+  grid-column: 3;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/07/-03072024-1719995270-311799198-mbank.jpg);
+}
+.news-4 {
+  grid-row: 3;
+  grid-column: 4;
+  background-image: url(https://mgl.gogo.mn/banner_gogo/banner/2024/07/02/news-b2/videourl/1719908641/viber_image_2024-07-02_16-03-54-743.jpg);
+}
+.gogo-story {
+  width: 100%;
+  height: 300px;
+  border: 2px solid red;
+  margin-top: 50px;
+}
+.gogo-story-heading {
+  width: 100%;
+}
+.gogo-story-body {
+  height: 235px;
+  display: grid;
+  grid-template-columns: repeat(6, 170px);
+  grid-template-rows: 1;
+  column-gap: 10px;
+  border: 2px solid red;
+  margin-top: 50px;
+  justify-content: space-around;
+}
+.story {
+  border: 1px solid black;
+  background-color: aqua;
+}
+.days-container {
+  width: 750px;
+  height: 80px;
+  border: 2px solid red;
+  margin-top: 50px;
+}
+.today {
+  width: 120px;
+  height: 50%;
+  border: 1px solid black;
+}
+.days {
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1;
+  column-gap: 10px;
+  border: 2px solid red;
+  justify-content: space-between;
+}
+.day {
+  border: 1px solid blue;
+  background-color: aqua;
+}
+.main-news-container {
+  width: 750px;
+  height: 780px;
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  grid-template-rows: repeat(6, 1fr);
+  border: 2px solid red;
+  background-color: black;
+}
+.main-news {
+  height: 100%;
+}

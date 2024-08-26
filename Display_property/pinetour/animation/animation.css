@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  /* animation-name: box;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+  /* animation shorthand  */
+  animation: box 2s ease 1s 2 alternate;
+}
+@keyframes box {
+  0% {
+    transform: translateY(10px);
+  }
+  50% {
+    transform: translate(100px, 100px);
+  }
+  100% {
+    transform: translateY(10px);
+    background-color: blue;
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="Do.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+      integrity="sha512-OQDNdI5rpnZ0BRhhJc+btbbtnxaj+LdQFeh0V9/igiEPDiWE2fG+ZsXl0JEH+bjXKPJ3zcXqNyP4/F/NegVdZg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <button class="button">Add task</button>
+      </div>
+      <div class="box-container">
+        <div class="box">
+          <div class="todo-card">
+            <div class="header1">
+              <div class="circle white"></div>
+              <p class="todo">To do</p>
+              <p class="number">5</p>
+            </div>
+          </div>
+          <div class="bg-grey">
+            <div class="circle border"></div>
+            <p class="text-1">[loan-managament] - Add card component</p>
+            <i class="ri-pencil-line" style="color: #999999"></i>
+            <i class="ri-delete-bin-line" style="color: #a30000"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="todo-card">
+            <div class="header1">
+              <div class="circle yellow"></div>
+              <p class="todo">In progress</p>
+              <p class="number">5</p>
+            </div>
+          </div>
+          <div class="bg-grey">
+            <div class="circle border"></div>
+            <p class="text-1">[loan-managament] - Add card component</p>
+            <i class="ri-pencil-line" style="color: #999999"></i>
+            <i class="ri-delete-bin-line" style="color: #a30000"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="todo-card">
+            <div class="header1">
+              <div class="circle green"></div>
+              <p class="todo">Done</p>
+              <p class="number">5</p>
+            </div>
+          </div>
+          <div class="bg-grey">
+            <div class="circle border"></div>
+            <p class="text-1">[loan-managament] - Add card component</p>
+            <i class="ri-pencil-line" style="color: #999999"></i>
+            <i class="ri-delete-bin-line" style="color: #a30000"></i>
+          </div>
+        </div>
+        <div class="box">
+          <div class="todo-card">
+            <div class="header1">
+              <div class="circle red"></div>
+              <p class="todo">Blocked</p>
+              <p class="number">5</p>
+            </div>
+          </div>
+          <div class="bg-grey">
+            <div class="circle border"></div>
+            <p class="text-1">[loan-managament] - Add card component</p>
+            <i class="ri-pencil-line" style="color: #999999"></i>
+            <i class="ri-delete-bin-line" style="color: #a30000"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="enterTask">
+      <div class="task-name"></div>
+      <div class="select-status"></div>
+      <button class="submit">Submit</button>
+    </div>
+    <script src="Do.js"></script>
+  </body>
+</html>

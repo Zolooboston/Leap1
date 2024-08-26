@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day Calendar</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      .container {
+        display: inline-flex;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid green;
+      }
+      .week {
+        display: flex;
+        gap: 20px;
+      }
+      .day {
+        width: 100px;
+        height: 100px;
+        border: 2px solid green;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .center {
+        justify-content: center;
+      }
+      .end {
+        justify-content: flex-end;
+      }
+      .between {
+        justify-content: space-between;
+      }
+      .grow {
+        display: flex;
+        flex-grow: 1;
+        justify-content: center;
+        gap: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div.container>div*3 -->
+    <!-- <div class="container">
+        <div></div>
+        <div></div>
+        <div></div>
+     </div> -->
+    <div class="container">
+      <div class="week">
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+      </div>
+      <div class="week">
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+      </div>
+      <div class="week center">
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+      </div>
+      <div class="week end">
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+        <div class="day">Fri</div>
+      </div>
+      <div class="week between">
+        <div class="week">
+          <div class="day">Mon</div>
+          <div class="day">Tue</div>
+        </div>
+        <div class="day">Fri</div>
+      </div>
+      <div class="week">
+        <div class="day">Mon</div>
+        <div class="day">Tue</div>
+        <div class="grow">
+          <div class="day">Thu</div>
+        </div>
+      </div>
+      <div class="week center">
+        <div class="day">Tue</div>
+        <div class="day">Wed</div>
+        <div class="day">Thu</div>
+      </div>
+      <div class="week">
+        <div class="grow">
+          <div class="day">Tue</div>
+          <div class="day">Wed</div>
+        </div>
+        <div class="day">Fri</div>
+      </div>
+    </div>
+  </body>
+</html>

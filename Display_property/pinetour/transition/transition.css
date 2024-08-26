@@ -1,0 +1,54 @@
+/* .box {
+  width: 200px;
+  height: 200px;
+  border: 1px solid red;
+} */
+/* .round {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: blue;
+} */
+
+/* a mouse over link */
+/* .box:hover {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: blue;
+  cursor: pointer;
+} */
+
+/* .click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  border: 2px solid red;
+  margin: 100px 0px 0px 100px;
+}
+.click:hover {
+  cursor: pointer;
+  background: aqua;
+  border-radius: 20px;
+  border: none;
+  color: aliceblue;
+  font-size: 50px;
+} */
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: linear;
+  transition-delay: 500ms; */
+  transition: all 2s ease 500ms;
+}
+.box:hover {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,75 @@
+* {
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: pink;
+}
+.title {
+  margin-bottom: 30px;
+}
+h1 {
+  font-size: 30px;
+  color: white;
+  font-family: cursive;
+  text-shadow: 1px 0 aliceblue;
+  background: cover;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.drums {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.drum {
+  width: 50px;
+  height: 50px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: auto;
+  background-color: white;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-family: cursive;
+  text-shadow: 2px 0 aliceblue;
+  background: cover;
+}
+/* .w {
+  background-image: url(./tom1.png);
+} */
+.bg-image {
+  background-position: center;
+  background-size: cover;
+}
+.w {
+  background-image: url(./tom1.png);
+}
+.a {
+  background-image: url(./tom2.png);
+}
+.s {
+  background-image: url(./tom3.png);
+}
+.d {
+  background-image: url(./tom4.png);
+}
+.j {
+  background-image: url(./snare.png);
+}
+.k {
+  background-image: url(./crash.png);
+  background-size: cover;
+}
+.l {
+  background-image: url(./kick.png);
+}

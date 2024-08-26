@@ -1,0 +1,1077 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+:root {
+  --black: #000000;
+  --gray: #888;
+  --white: #ffffff;
+  --blue: #00b0f4;
+  --border: 5px;
+  --cursor: pointer;
+  --font-gray: hsla(0, 0%, 100%, 0.8);
+  --light-gray: #c6c6c6;
+}
+.container {
+  position: absolute;
+  width: 100%;
+  height: 920px;
+  background-color: #f7f7f7;
+  z-index: -1;
+}
+.container-1 {
+  width: 1180px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+body {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.head {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.zuun {
+  width: 70%;
+  height: 100%;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.gogo-logo {
+  width: 120px;
+  height: 40px;
+}
+.mid {
+  width: 75%;
+  height: 100%;
+  border: 1px solid purple;
+  display: flex;
+  align-items: center;
+}
+.red {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: red;
+}
+.ul-list {
+  margin-left: 15px;
+}
+.mid ul li {
+  display: inline-block;
+  margin: 0 10px;
+  border: 1px solid blue;
+}
+.search {
+  width: 5%;
+  height: 100%;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-icon {
+  width: 50%;
+}
+.baruun {
+  width: 30%;
+  height: 100%;
+  border: 1px solid black;
+}
+.container-2 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.nav-1 {
+  margin-top: 10px;
+  position: relative;
+}
+.image-1 {
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 390px 270px;
+  row-gap: 30px;
+  column-gap: 15px;
+  margin-top: 10px;
+}
+.hover-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--border);
+  transition: all 0.3s linear;
+}
+.caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  opacity: 0;
+  transition: all 0.3s linear;
+}
+.caption p {
+  font-size: 16px;
+  font-weight: 700;
+}
+.right-arrow {
+  width: 20px;
+  height: 20px;
+}
+.arrow {
+  width: 20px;
+  height: 20px;
+  filter: invert(99%) sepia(61%) saturate(426%) hue-rotate(195deg)
+    brightness(118%) contrast(100%);
+}
+.box-2:hover .caption {
+  opacity: 1;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+.box-2:hover .hover-image {
+  transform: scale(1.1);
+}
+.box-1 {
+  background-color: green;
+  grid-column: 1/3;
+  grid-row: 1;
+  border-radius: var(--border);
+  cursor: var(--cursor);
+  padding-top: 40px;
+}
+.box-2 {
+  position: relative;
+  grid-column: 3/5;
+  grid-row: 1;
+  border-radius: var(--border);
+  cursor: var(--cursor);
+  overflow: hidden;
+}
+.box-3 {
+  position: relative;
+  background-color: aqua;
+  grid-column: 1;
+  grid-row: 2;
+  border-radius: var(--border);
+  cursor: var(--cursor);
+}
+.zurag:hover .caption {
+  opacity: 1;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+.zurag:hover .hover-image {
+  transform: scale(1.1);
+}
+.zurag {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  border-radius: var(--border);
+  overflow: hidden;
+}
+
+.box-4 {
+  background-color: aqua;
+  grid-column: 2;
+  grid-row: 2;
+  border-radius: var(--border);
+  cursor: var(--cursor);
+}
+.box-5 {
+  background-color: aqua;
+  grid-column: 3;
+  grid-row: 2;
+  border-radius: var(--border);
+  cursor: var(--cursor);
+}
+.box-6 {
+  grid-column: 4;
+  grid-row: 2;
+  border-radius: var(--border);
+  cursor: var(--cursor);
+  background-image: url(https://mgl.gogo.mn/banner_gogo/banner/2024/07/02/news-b2/videourl/1719896309/%D0%A5%D1%8F%D0%BC%D0%B4%D1%80%D0%B0%D0%BB%20%D0%BC%D0%B0%D0%B0%D0%BC%D1%83%D1%83%20%20263%D1%85270%20%D0%912%20%D0%B1%D0%B0%D0%BD%D0%BD%D0%B5%D1%80%20copy.jpg);
+}
+.container-3 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.gogo-story {
+  width: 150px;
+  height: 30px;
+  margin-top: 90px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.black-gogo {
+  width: 75px;
+  height: 100%;
+  font-size: 25px;
+  font-weight: 700;
+  color: var(--black);
+}
+.story {
+  width: 75px;
+  height: 80%;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 3px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 16px;
+}
+.grid-1 {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: 230px;
+  margin-top: 20px;
+  column-gap: 15px;
+}
+.medee-1 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/story/320613-03072024-1719971378-1726334760-tttd-vienna-feature-1440-675-6686041a27fba545139363.jpg);
+  background-size: 100%;
+  cursor: var(--cursor);
+}
+.medee-2 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/story/paris2024-6684fe7f52eed908618623.jpg);
+  background-size: 100%;
+  cursor: var(--cursor);
+}
+.medee-3 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/story/320570-02072024-1719904390-1205159156-mixcollage-02-jul-2024-03-12-pm-871-6684acc26dcbe299069056.jpg);
+  background-size: 100%;
+  cursor: var(--cursor);
+}
+.medee-4 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/story/126-gishuun-anhdugaar-chuulgan-34-143632-12127352601-6683ee5cc4a03361937967.jpeg);
+  background-size: 100%;
+  cursor: var(--cursor);
+}
+.medee-5 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/story/muzei-17-142604-10735304520240702142608-6683e2b19b7a5944504714.jpeg);
+  background-size: 100%;
+  cursor: var(--cursor);
+}
+.medee-6 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/story/mount-fuji-081913-782338830-6683e27f6e4a3859065813.jpeg);
+  background-size: 100%;
+  cursor: var(--cursor);
+}
+.on-sar-div {
+  width: 700px;
+  height: 50px;
+  border: 1px solid green;
+  margin-top: 30px;
+}
+.on-sar {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-template-rows: 50px;
+  column-gap: 15px;
+}
+.sar-1 {
+  border: 1px solid red;
+}
+.sar-2 {
+  border: 1px solid green;
+}
+.sar-3 {
+  border: 1px solid red;
+}
+.sar-4 {
+  border: 1px solid green;
+}
+.sar-5 {
+  border: 1px solid red;
+}
+.sar-6 {
+  border: 1px solid green;
+}
+.medeelel {
+  width: 690px;
+  height: 510px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 210px 450px;
+  grid-template-rows: repeat(3, 150px);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.medeelel-1 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-04072024-1720063583-241231593-1.jpg);
+  background-size: cover;
+}
+.medeelel-2 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.medeelel-3 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320664-04072024-1720062763-791192570-chuulgan_shine.jpeg);
+  background-size: cover;
+}
+.medeelel-4 {
+  background-color: green;
+  border-radius: var(--border);
+}
+.medeelel-5 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320663-04072024-1720061666-508338498--10022020-1581303616-1142321061-Elseltiin_Erunhii_shalgalt9-112951-28318185120190617133937.jpeg);
+  background-size: cover;
+}
+.medeelel-6 {
+  background-color: blue;
+  border-radius: var(--border);
+}
+.image-2 {
+  width: 690px;
+  height: 245px;
+  margin-top: 30px;
+  border-radius: var(--border);
+}
+.medeelel2 {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 210px 450px;
+  grid-template-rows: repeat(12, 150px);
+  row-gap: 30px;
+  column-gap: 30px;
+}
+.content-1 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320643-04072024-1720059288-1087208656-zurhnii_uvchin_hereh_25_nas_woman-holding-human-heart-model-cardiovascular-di-2023-11-27-04-58-58-utc1.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-2 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.content-3 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-04072024-1720059671-1447746759-6.JPG);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-4 {
+  background-color: purple;
+  border-radius: var(--border);
+}
+.content-5 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320661-04072024-1720058811-422037559-korean-air.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-6 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.content-7 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/np/2017/06/14/4897187/Shalgalt_1-131334-412940044.jpeg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-8 {
+  background-color: purple;
+  border-radius: var(--border);
+}
+.content-9 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-04072024-1720055411-1115339348-6.JPG);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-10 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.content-11 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320658-04072024-1720054666-377614549-shuuh2.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-12 {
+  background-color: purple;
+  border-radius: var(--border);
+}
+.content-13 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-03072024-1720009095-1846843655-Global_esim_2x1.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-14 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.content-15 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-03072024-1719989091-2041253375-Photo_1.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-16 {
+  background-color: purple;
+  border-radius: var(--border);
+}
+.content-17 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320657-04072024-1720054527-1949684571-photo_2024-07-03_15-07-09.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-18 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.content-19 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320656-04072024-1720053854-177659044-maykal_AdobeStock_511151036_RV.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-20 {
+  background-color: purple;
+  border-radius: var(--border);
+}
+.content-21 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-01072024-1719810140-1930019483-neelt301.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-22 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.content-23 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/-04072024-1720051753-121927829-aadar.jpeg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-24 {
+  background-color: purple;
+  border-radius: var(--border);
+}
+.button-1 {
+  width: 690px;
+  height: 60px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #f2f2f2;
+  background-color: #f8f8f8;
+  border-radius: var(--border);
+  cursor: pointer;
+}
+.tsaash-uzeh {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--black);
+}
+.comment-emoji {
+  width: 17px;
+  height: 21px;
+  margin-left: 4px;
+}
+.container-4 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.garchig-1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 80px;
+}
+.microphone-emoji {
+  width: 20px;
+  height: 25px;
+}
+.yriltslaga {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: var(--black);
+}
+.medeelel3 {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, 245px);
+  margin-top: 20px;
+  gap: 15px;
+}
+.content-2-1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/images/c/2024/06/319929-14062024-1718355492-961923398-gutal_31.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-2-2 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/06/-13062024-1718238136-463633005-DSC084481.JPG);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-2-3 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/06/319477-01062024-1717254979-1198752746-cafe11.jpg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-2-4 {
+  border-radius: var(--border);
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/600/images/c/2024/05/319045-21052024-1716251435-988856390-shatsanbarilga_dunjigarav_galdavtsanbarilga-5-155756-13325088311.jpeg);
+  background-size: cover;
+  background-position-x: center;
+}
+.content-2-5 {
+  border-radius: var(--border);
+  background-size: cover;
+  background-position-x: center;
+}
+.container-5 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.gogo-hev-mayg {
+  margin-top: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.hev-mayg {
+  width: 110px;
+  height: 80%;
+  color: var(--white);
+  background-color: var(--blue);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  font-size: 16px;
+}
+.hev-mayg-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 360px;
+  gap: 15px;
+  margin-top: 20px;
+}
+.zurag-3 {
+  position: relative;
+  overflow: hidden;
+}
+.zurag-3:hover .caption {
+  opacity: 1;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+.content-3-1 {
+  border-radius: var(--border);
+  background-color: red;
+  cursor: pointer;
+}
+.zurag-3:hover .bg-image-1 {
+  transform: scale(1.1);
+}
+.bg-image-1 {
+  width: 100%;
+  height: 230px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2023/08/309585-14082023-1691987092-1073607744--04082017-1501818167-1777909998-%D1%88%D0%B0%D1%80%D0%B8%D0%BB%D0%B6.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+
+.content-3-2 {
+  background-color: blue;
+  border-radius: var(--border);
+  cursor: pointer;
+}
+.zurag-3:hover .bg-image-2 {
+  transform: scale(1.1);
+}
+.bg-image-2 {
+  width: 100%;
+  height: 230px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2020/05/256362-29052020-1590736128-854446703-thumbnail_Naan_edited.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+
+.content-3-3 {
+  background-color: red;
+  border-radius: var(--border);
+  cursor: pointer;
+}
+.zurag-3:hover .bg-image-3 {
+  transform: scale(1.1);
+}
+.bg-image-3 {
+  width: 100%;
+  height: 230px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2020/10/262213-09102020-1602228344-997809654-thumbnail_crepe.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+
+.content-3-4 {
+  background-color: blue;
+  border-radius: var(--border);
+  cursor: pointer;
+}
+.zurag-3:hover .bg-image-4 {
+  transform: scale(1.1);
+}
+.bg-image-4 {
+  width: 100%;
+  height: 230px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/510/images/c/2017/06/209166-12062017-1497226945-1445687423-189995-04082016-1470265597-704831987-HALUUN.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+
+.container-6 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.garchig-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+}
+.laptop-emoji {
+  width: 23px;
+  height: 25px;
+}
+.technology {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: var(--black);
+}
+.technology-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: 300px;
+  gap: 15px;
+  margin-top: 20px;
+}
+.content-4-1 {
+  background-color: blue;
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-2-1 {
+  transform: scale(1.1);
+}
+.bg-image-2-1 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320656-04072024-1720053854-177659044-maykal_AdobeStock_511151036_RV.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+.content-4-2 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-2-2 {
+  transform: scale(1.1);
+}
+.bg-image-2-2 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/-26062024-1719376236-861907513-738a9e1c-0c99-43cf-8d24-3343976ed8e5.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+.content-4-3 {
+  background-color: blue;
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-2-3 {
+  transform: scale(1.1);
+}
+.bg-image-2-3 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319884-13062024-1718265519-851207572-tsahilgaanmashin.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+.content-4-4 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-2-4 {
+  transform: scale(1.1);
+}
+.bg-image-2-4 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319881-13062024-1718264359-476055606-Apple.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+.container-7 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.garchig-3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 60px;
+}
+.turtle-emoji {
+  width: 25px;
+  height: 27px;
+}
+.komik {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: var(--black);
+}
+.komik-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: 330px;
+  gap: 15px;
+  margin-top: 20px;
+}
+.content-5-1 {
+  background-color: blue;
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-5-1 {
+  transform: scale(1.1);
+}
+.bg-image-5-1 {
+  width: 100%;
+  height: 200px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/comic/2023/06/21/3773/comic-153411-688093610.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+.content-5-2 {
+  background-color: red;
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-5-2 {
+  transform: scale(1.1);
+}
+.bg-image-5-2 {
+  width: 100%;
+  height: 200px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/1000/comic/2023/05/03/3772/hugjliin_bank-184555-1805228234.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px 5px 0 0;
+}
+.container-8 {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.garchig-4 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 110px;
+}
+.video-emoji {
+  width: 30px;
+  height: 30px;
+}
+.uzeh {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 8px;
+  color: var(--white);
+}
+.uzeh-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(2, 320px);
+  column-gap: 15px;
+  row-gap: 20px;
+  margin-top: 20px;
+}
+.tailbar-6 {
+  width: 263.75px;
+  font-size: 15px;
+  font-weight: 550;
+  color: var(--font-gray);
+  margin-top: 7px;
+  line-height: 20px;
+}
+.share-6 {
+  width: 263.75px;
+  height: 20px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.share-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.comment-icon {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 10px;
+}
+.too-6 {
+  font-size: 12px;
+  margin-left: 3px;
+  color: var(--light-gray);
+}
+.content-6-1 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-1 {
+  transform: scale(1.1);
+}
+.bg-image-6-1 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320643-04072024-1720059288-1087208656-zurhnii_uvchin_hereh_25_nas_woman-holding-human-heart-model-cardiovascular-di-2023-11-27-04-58-58-utc1.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-2 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-2 {
+  transform: scale(1.1);
+}
+.bg-image-6-2 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320530-01072024-1719821264-1691469497-purevdavaa.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-3 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-3 {
+  transform: scale(1.1);
+}
+.bg-image-6-3 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320525-01072024-1719819837-1564767260-byambasuren.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-4 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-4 {
+  transform: scale(1.1);
+}
+.bg-image-6-4 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/07/320524-01072024-1719818347-2076881969-nara.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-5 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-5 {
+  transform: scale(1.1);
+}
+.bg-image-6-5 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/320231-24062024-1719207494-709085115-yaarmagiinguur_shineguur_uer_tuulgol_-31.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-6 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-6 {
+  transform: scale(1.1);
+}
+.bg-image-6-6 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/np/2024/06/21/5214839/tsas_ulaanbaatar_tsagagaar_hot_boroo_gudamj-15-201153-16305423911.jpeg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-7 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-7 {
+  transform: scale(1.1);
+}
+.bg-image-6-7 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319672-11062024-1718070211-719243141-41.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.content-6-8 {
+  cursor: var(--cursor);
+  border-radius: var(--border);
+}
+.zurag-3:hover .bg-image-6-8 {
+  transform: scale(1.1);
+}
+.bg-image-6-8 {
+  width: 100%;
+  height: 170px;
+  background-image: url(https://mgl.gogo.mn/newsn/thumbnail/420/images/c/2024/06/319762-10062024-1718020289-1785213743--10062024-1718006561-1643979575-441923985_1611441749647460_183513286690600197_n1.jpg);
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s linear;
+  border-radius: 5px;
+}
+.container1 {
+  position: absolute;
+  width: 100%;
+  height: 767px;
+  margin-top: 6400px;
+  background-color: #1a1a1a;
+  z-index: -1;
+}
+.footer {
+  width: 100%;
+  height: 247px;
+  padding: 50px 40px;
+  border: 1px solid blue;
+}
+.footer-top {
+  width: 100%;
+  height: 65px;
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-list {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.footer-top ul li {
+  display: flex;
+  justify-content: center;
+  margin: 0 10px;
+}
+.footer-element-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.icon {
+  width: 15px;
+  height: 20px;
+}
+.text {
+  margin-left: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--black);
+}
+ul {
+  display: inline-block;
+}
+
+.zuraas {
+  width: 100%;
+  height: 0;
+  border: 0.5px solid #e5e5e5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

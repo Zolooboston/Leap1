@@ -1,0 +1,40 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+span {
+  display: block;
+  text-align: center;
+  background-color: green;
+  margin: 10px;
+  color: white;
+}
+.block_element {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: orange;
+} */
+/* .container1 div {
+  background-color: green;
+  display: inline;
+  color: white;
+}
+.container1 {
+  text-align: center;
+  border: 1px solid green;
+  height: 100px;
+} */
+.box {
+  display: block;
+  background-color: green;
+  margin: 10px;
+}
+.inline-block-container {
+  display: inline-block;
+  background-color: orange;
+}
+#container {
+  border: 1px solid green;
+  text-align: center;
+  padding-bottom: 50px;
+}

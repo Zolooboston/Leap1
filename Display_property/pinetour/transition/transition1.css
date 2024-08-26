@@ -1,0 +1,18 @@
+.box1 {
+  width: 300px;
+  height: 300px;
+  border: dashed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: all 2s linear 500ms;
+}
+.box:hover {
+  width: 300px;
+  height: 300px;
+}

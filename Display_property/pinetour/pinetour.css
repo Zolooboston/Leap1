@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  border: 2px solid blue;
+}
+.pinetour {
+  height: 80px;
+  padding: 40px 0px 10px 0px;
+  background-color: black;
+  text-align: center;
+}
+.Khuvsgul {
+  background-color: white;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 200px;
+  gap: 80px;
+}
+.Lake {
+  padding-bottom: 50px;
+  width: 555px;
+  height: 125px;
+  gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 {
+  width: 555px;
+  height: 88px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #303030;
+}
+p {
+  height: 29px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #ababab;
+}
+.pics {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+  border-radius: 12px;
+  margin: auto;
+  padding: 10px;
+}
+/* .agency {
+  width: 40%;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+} */
+h2 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 72px;
+  color: #303030;
+}
+.destination {
+  display: flex;
+  border: 2px solid red;
+  justify-content: center;
+  margin: 50px auto;
+}
+.agency {
+  width: 470px;
+  height: 700px;
+  border: 2px solid black;
+}
+.D-container {
+  width: 470px;
+  height: 700px;
+  border: 2px solid black;
+}
+.D {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 50px auto;
+  gap: 20px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background-color: black;
+  color: green;
+  text-align: center;
+  border-radius: 50px;
+}
+.text {
+}
+#p2 {
+  color: black;
+  font-size: 30px;
+}

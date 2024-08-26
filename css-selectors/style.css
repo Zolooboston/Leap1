@@ -1,0 +1,50 @@
+body {
+    background-color: white;
+}
+p {
+    color: blue;
+}
+
+#Id-Selector{
+    color:yellow;
+}
+/* .number-3 {
+    color: brown;
+}
+.color-green {
+    color: green; */
+
+.Class-Selector {
+    color: green;
+}
+/* 
+.font-size-small {
+    font-size: small;
+}
+div span {
+    color: red;
+} */
+div span {
+    color: red;
+}
+.color-black {
+    color: black;
+}
+.font-size-small {
+    font-size: small;
+}
+div p {
+    color: red;
+}
+.font-small {
+    font-size: small;
+}
+.font-medium {
+    font-size: medium;
+}
+.font-large {
+    font-size: large;
+}
+#div2 {
+    background-color: yellow;
+}

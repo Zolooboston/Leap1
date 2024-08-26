@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  width: 100vw;
+}
+
+.header {
+  background-color: black;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main_container {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.section_a {
+  height: 800px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.part_2 {
+  display: flex;
+  gap: 21px;
+}
+.part_2 img {
+  height: 400px;
+  width: 284px;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 60px;
+}
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  color: gray;
+}
+
+.section_b {
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+.right {
+  height: 559px;
+}
+
+.left_a {
+  display: inline-flex;
+  gap: 100px;
+}
+
+.destination {
+  height: 559px;
+  display: inline-flex;
+}
+.sub_destination {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.x {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dot {
+  display: flex;
+  height: 56px;
+  width: 56px;
+  font-size: 17px;
+  border-radius: 28px;
+  background-color: black;
+  color: green;
+  justify-content: center;
+  align-items: center;
+}
+.dot_line {
+  height: 550px;
+  border-left: 1px dashed black;
+  display: inline-flex;
+  margin: 0 -28px;
+  z-index: -1;
+}
+
+.destination_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.bo {
+  border: 1px solid black;
+}
+
+.grey {
+  color: grey;
+}
+
+.small {
+  font-size: 12px;
+}
+
+span {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.right img {
+  height: 700px;
+  width: 600px;
+  box-shadow: 0 0 5px 0 black;
+  border-radius: 25px;
+}
+
+.section_d {
+  margin-top: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 50px;
+}
+
+.medium {
+  font-size: 29px;
+}
+.large {
+  font-size: 48px;
+}
+.price_font {
+  font-size: 32px;
+}
+
+.card_name_font {
+  display: inline-flex;
+  font-size: 24px;
+  font-weight: 700;
+}
+.price {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cards {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  display: inline-flex;
+  flex-direction: column;
+  background-color: white;
+  height: 370px;
+  width: 285px;
+  border-radius: 24px;
+  padding: 30px;
+  gap: 30px;
+}
+
+.main {
+  display: inline-flex;
+  flex-direction: column;
+  height: 400px;
+  gap: 24px;
+}
+
+.back {
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  margin-left: 50px;
+  gap: 15px;
+}
+li {
+  gap: 20px;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.card:hover {
+  cursor: pointer;
+  border: 1px solid green;
+}
+
+.last {
+  background-color: #171717;
+  color: #f4f4f4;
+  height: 393px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 300px;
+}
+.gbutton {
+  color: #f4f4f4;
+  background-color: green;
+  border: none;
+  height: 44px;
+  width: 130px;
+  border-radius: 4px;
+}
+
+.gbutton:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+.footer {
+  background-color: #101010;
+  height: 228px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  color: white;
+  font-size: 16px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  background-color: #303030;
+  border-radius: 4px;
+  padding: 10px;
+}
+.footer_main {
+  display: flex;
+  width: 1800px;
+  justify-content: space-between;
+}
